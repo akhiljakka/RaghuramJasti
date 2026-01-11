@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const p = findProductBySlug(params.slug);
   return {
-    title: p ? `${p.name} - Premium Granite Slabs` : "Product not found",
+    title: p ? `${p.name} - Haripriya Granite Slabs` : "Product not found",
     description: p?.description ?? "Premium quality granite slabs.",
   };
 }

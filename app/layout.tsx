@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Premium Granite - High-Quality Granite Slabs Supplier',
+  title: 'Haripriya Granites - High-Quality Granite Slabs Supplier',
   description: 'For over 20 years, we have been supplying high-quality granite slabs. Precision cutting and polishing with advanced machinery for domestic and international markets.',
   keywords: 'granite slabs, granite supplier, stone cutting, granite factory, polished granite, black galaxy granite, steel grey granite',
 };

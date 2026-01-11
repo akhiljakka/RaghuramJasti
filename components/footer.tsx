@@ -82,7 +82,6 @@ export function Footer() {
               <li className="flex items-start space-x-2 text-white/60 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span> Industrial Area, Konidena Road, Rajupalem, Andhra Pradesh, 523301</span>
-
               </li>
             </ul>
           </div>

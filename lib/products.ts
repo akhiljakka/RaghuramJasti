@@ -1,0 +1,142 @@
+export const products = [
+  {
+    slug: "black-galaxy",
+    name: "Black Galaxy Granite",
+    image: "/assets/gallery/black-galaxy.png",
+    images: [
+      "/assets/gallery/black-galaxy.png",
+      "/assets/gallery/BlackPearl.jpg",
+      "/assets/gallery/spice-black.png",
+    ],
+    description:
+      "Deep black with golden specks, ideal for countertops and kitchen surfaces. This stunning granite adds elegance and sophistication to any space.",
+    features: [
+      "Rich black background",
+      "Golden/bronze speckles",
+      "Perfect for countertops",
+      "High durability",
+    ],
+    technical: {
+      measures: "315 x 195 cm",
+      thickness: "3 cm",
+      bundles: "4 Bundles",
+      finishing: "Polished",
+      code: "I5778",
+      type: "Granite",
+      origin: "India",
+      color: "Grey",
+      priceRange: "Primary",
+    },
+  },
+  {
+    slug: "black-pearl-granite",
+    name: "Black Pearl Granite",
+    image: "/assets/gallery/BlackPearl.jpg",
+    images: ["/assets/gallery/BlackPearl.jpg", "/assets/gallery/black-galaxy.png"],
+    description:
+      "Elegant waves of gray and white, ideal for modern interiors. This sophisticated granite brings a contemporary feel to any design.",
+    features: ["White with grey veins", "Modern aesthetic", "Versatile application", "Elegant finish"],
+    technical: {
+      measures: "315 x 195 cm",
+      thickness: "3 cm",
+      bundles: "4 Bundles",
+      finishing: "Polished",
+      code: "BP1001",
+      type: "Granite",
+      origin: "India",
+      color: "Grey",
+      priceRange: "Primary",
+    },
+  },
+  {
+    slug: "steel-grey",
+    name: "Steel Grey Granite",
+    image: "/assets/gallery/SteelGray.jpg",
+    images: [
+      "/assets/gallery/SteelGray.jpg",
+      "/assets/gallery/SteelGray1.jpeg",
+      "/assets/gallery/SteelGray2.jpeg",
+      "/assets/gallery/SteelGray3.jpeg",
+      "/assets/gallery/SteelGray4.jpeg",
+      "/assets/gallery/SteelGrayDark.jpg",
+    ],
+    description:
+      "Durable and consistent, perfect for large commercial projects. Its uniform appearance makes it a versatile choice for various applications.",
+    features: ["Consistent grey color", "Commercial grade", "Low maintenance", "Ideal for flooring"],
+    technical: {
+      measures: "300 x 180 cm",
+      thickness: "2 cm",
+      bundles: "6 Bundles",
+      finishing: "Polished",
+      code: "S1234",
+      type: "Granite",
+      origin: "India",
+      color: "Grey",
+      priceRange: "Standard",
+    },
+  },
+  {
+    slug: "viscount-white",
+    name: "Viscount White Granite",
+    image: "/assets/gallery/BlackPearl.jpg",
+    images: ["/assets/gallery/BlackPearl.jpg"],
+    description:
+      "Elegant waves of gray and white, ideal for modern interiors. This sophisticated granite brings a contemporary feel to any design.",
+    features: ["White with grey veins", "Modern aesthetic", "Versatile application", "Elegant finish"],
+    technical: {
+      measures: "280 x 170 cm",
+      thickness: "2 cm",
+      bundles: "3 Bundles",
+      finishing: "Honed",
+      code: "V2222",
+      type: "Granite",
+      origin: "India",
+      color: "White",
+      priceRange: "Premium",
+    },
+  },
+  {
+    slug: "tan-brown",
+    name: "Tan Brown Granite",
+    image: "/assets/gallery/BhagavathiV13Pro.jpeg",
+    images: ["/assets/gallery/BhagavathiV13Pro.jpeg"],
+    description:
+      "Rich blend of brown and black tones, great for kitchens and bathrooms. Warm and inviting with natural beauty.",
+    features: ["Brown with black specks", "Warm appearance", "Kitchen favorite", "Easy to maintain"],
+    technical: {
+      measures: "310 x 190 cm",
+      thickness: "3 cm",
+      bundles: "5 Bundles",
+      finishing: "Polished",
+      code: "T4444",
+      type: "Granite",
+      origin: "India",
+      color: "Brown",
+      priceRange: "Standard",
+    },
+  },
+  {
+    slug: "absolute-black",
+    name: "Absolute Black Granite",
+    image: "/assets/gallery/SteelGray1.jpeg",
+    images: ["/assets/gallery/SteelGray1.jpeg"],
+    description:
+      "Sleek and bold, highly polished for luxury finishes. The ultimate in elegance with its pure black color and high shine.",
+    features: ["Pure black color", "High polish finish", "Luxury appeal", "Premium quality"],
+    technical: {
+      measures: "300 x 180 cm",
+      thickness: "2 cm",
+      bundles: "2 Bundles",
+      finishing: "Polished",
+      code: "A9999",
+      type: "Granite",
+      origin: "India",
+      color: "Black",
+      priceRange: "Premium",
+    },
+  },
+];
+
+export function findProductBySlug(slug: string) {
+  return products.find((p) => p.slug === slug);
+}

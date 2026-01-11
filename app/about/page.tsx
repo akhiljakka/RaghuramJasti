@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="max-w-5xl mx-auto">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                For over 20 years, we've been dedicated to sourcing and supplying high-quality granite slabs.
+                For over 25 years, we've been dedicated to sourcing and supplying high-quality granite slabs.
                 What began as a small, hands-on operation has steadily grown through hard work, strong relationships,
                 and a commitment to quality. We've come a long way — and while we're proud of our progress, we know
                 there's still more to achieve.
